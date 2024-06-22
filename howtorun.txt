@@ -1,0 +1,27 @@
+1- install python-3.6.x
+download from
+https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe
+-- plz check in the Path box and select install now
+
+ install xlib==0.212- Open cmd.exe from path proj2
+3- install lib
+pip install -U pip
+pip install -U setuptools
+pip install -U wheel
+pip install -r requirements.txt
+
+pip install Xlib
+pip install matplotlib
+pip install openvino==2021.4.0
+pip install python3-xlib==0.15
+pip install PyAutoGUI==0.9.38
+
+
+#Note please use code proj2!!!!!!!!!!
+
+#and run code
+#video
+python main.py --input demo.mp4 --debug --show-bbox --enable-mouse --mouse-precision low --mouse-speed fast
+
+#cam
+python main.py --input cam --debug --show-bbox --enable-mouse --mouse-precision low --mouse-speed fast
