@@ -1,8 +1,8 @@
 markdown
 Copy code
-# Project Name
+# Face Gesture Recognition System for Controlling PC
 
-A brief description of the project.
+A professional Python-based Human Computer Interface application designed to perform cursor functions using face movements and gestures, featuring built-in face detection and recognition for enhanced security. The application utilizes the built-in webcam for input, and it allows saving the faces of authorized users while operating in the **-allow_grow** mode.
 
 ## Prerequisites
 
@@ -49,18 +49,6 @@ python main.py --input cam --debug --show-bbox --enable-mouse --mouse-precision 
 Notes
 Please ensure you are in the proj2 directory when running the commands.
 
-License
-Include license information here if applicable.
-
-sql
-Copy code
-
-### Additional Tips:
-
-- Replace "Project Name" with the actual name of your project.
-- Add a brief description of what your project does at the top.
-- Include any additional information or troubleshooting steps if necessary.
-- Ensure the directory structure and paths are clearly defined if users need to navigate specific directories.
 
 This README provides a clear and concise guide for users to set up and run your project.
 
